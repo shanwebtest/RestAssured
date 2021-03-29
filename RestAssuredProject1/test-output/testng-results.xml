@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6987" started-at="2021-03-29T14:04:43 IST" finished-at="2021-03-29T14:04:50 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6987" started-at="2021-03-29T14:04:43 IST" finished-at="2021-03-29T14:04:50 IST">
+      <class name="PutPatchDeleteExamples">
+        <test-method status="PASS" signature="delete_Test()[pri:0, instance:PutPatchDeleteExamples@6c49835d]" name="delete_Test" duration-ms="4566" started-at="2021-03-29T14:04:43 IST" finished-at="2021-03-29T14:04:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_Test -->
+        <test-method status="PASS" signature="patch_Test()[pri:0, instance:PutPatchDeleteExamples@6c49835d]" name="patch_Test" duration-ms="1271" started-at="2021-03-29T14:04:47 IST" finished-at="2021-03-29T14:04:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patch_Test -->
+        <test-method status="PASS" signature="put_Test()[pri:0, instance:PutPatchDeleteExamples@6c49835d]" name="put_Test" duration-ms="1083" started-at="2021-03-29T14:04:49 IST" finished-at="2021-03-29T14:04:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_Test -->
+      </class> <!-- PutPatchDeleteExamples -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
