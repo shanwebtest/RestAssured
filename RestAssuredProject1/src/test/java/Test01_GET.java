@@ -35,9 +35,9 @@ public class Test01_GET {
 
 		//or bellow code also will work
 		given().
-		get("/users?page=2").
+		    get("/users?page=2").
 		then().
-		statusCode(200);
+		     statusCode(200);
 
 
 	}

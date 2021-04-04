@@ -30,7 +30,7 @@ public class Get_and_Post_Examples {
 	public void testPOST() {
 
 		Map<String, Object> map = new HashMap<String, Object>();
-		map.put("name", "morpheus");
+		map.put("name","morpheus");
 		map.put("Job", "Teacher");		
 	//	System.out.println(map);
 		

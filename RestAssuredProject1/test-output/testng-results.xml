@@ -2,24 +2,45 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6987" started-at="2021-03-29T14:04:43 IST" finished-at="2021-03-29T14:04:50 IST">
+  <suite name="Suite" duration-ms="11752" started-at="2021-04-04T20:51:33 IST" finished-at="2021-04-04T20:51:45 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6987" started-at="2021-03-29T14:04:43 IST" finished-at="2021-03-29T14:04:50 IST">
-      <class name="PutPatchDeleteExamples">
-        <test-method status="PASS" signature="delete_Test()[pri:0, instance:PutPatchDeleteExamples@6c49835d]" name="delete_Test" duration-ms="4566" started-at="2021-03-29T14:04:43 IST" finished-at="2021-03-29T14:04:47 IST">
+    <test name="TestAPI" duration-ms="11752" started-at="2021-04-04T20:51:33 IST" finished-at="2021-04-04T20:51:45 IST">
+      <class name="test_Local.parameterization">
+        <test-method status="PASS" signature="GET(java.lang.String)[pri:0, instance:test_Local.parameterization@52f759d7]" name="GET" duration-ms="9901" started-at="2021-04-04T20:51:34 IST" data-provider="testdata" finished-at="2021-04-04T20:51:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.appdomain.com/users/123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delete_Test -->
-        <test-method status="PASS" signature="patch_Test()[pri:0, instance:PutPatchDeleteExamples@6c49835d]" name="patch_Test" duration-ms="1271" started-at="2021-03-29T14:04:47 IST" finished-at="2021-03-29T14:04:49 IST">
+        </test-method> <!-- GET -->
+        <test-method status="PASS" signature="GET(java.lang.String)[pri:0, instance:test_Local.parameterization@52f759d7]" name="GET" duration-ms="306" started-at="2021-04-04T20:51:44 IST" data-provider="testdata" finished-at="2021-04-04T20:51:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.appdomain.com/users/123/address]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- patch_Test -->
-        <test-method status="PASS" signature="put_Test()[pri:0, instance:PutPatchDeleteExamples@6c49835d]" name="put_Test" duration-ms="1083" started-at="2021-03-29T14:04:49 IST" finished-at="2021-03-29T14:04:50 IST">
+        </test-method> <!-- GET -->
+        <test-method status="PASS" signature="GET(java.lang.String)[pri:0, instance:test_Local.parameterization@52f759d7]" name="GET" duration-ms="312" started-at="2021-04-04T20:51:44 IST" data-provider="testdata" finished-at="2021-04-04T20:51:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.appdomain.com/users?size=20&page=5]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- put_Test -->
-      </class> <!-- PutPatchDeleteExamples -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- GET -->
+      </class> <!-- test_Local.parameterization -->
+    </test> <!-- TestAPI -->
+  </suite> <!-- Suite -->
 </testng-results>
