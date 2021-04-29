@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_Local.parameterization">
+      <class name="toolsMethod.ValidateResponseBody">
         <methods>
-          <include name="GET" invocation-numbers="0 1 2"/>
+          <include name="QueryParameter"/>
         </methods>
-      </class> <!-- test_Local.parameterization -->
+      </class> <!-- toolsMethod.ValidateResponseBody -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
